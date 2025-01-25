@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.tsx'
 import Login from './components/Login.tsx'
 import Dashboard from './components/Dashboard.tsx'
+import Register from './components/Register.tsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
   {
     path: "/dashboard",
